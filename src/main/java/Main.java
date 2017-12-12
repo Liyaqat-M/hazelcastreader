@@ -14,10 +14,10 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        String oldHazelCastURL = "ec2-54-154-203-95.eu-west-1.compute.amazonaws.com";
+        String oldHazelCastURL = "XXXXX";
         HazelcastInstance oldhzClient = getHazelcastInstance(oldHazelCastURL);
 
-        String newHazelCastURL = "172.28.128.3"; //172.28.128.3 //172.31.11.15
+        String newHazelCastURL = "XXXXXX2";
         HazelcastInstance newhzClient = getHazelcastInstance(newHazelCastURL);
 
 
