@@ -61,7 +61,7 @@ public class Main {
         oldClientConfigGroupConfig.setName("dev");
         oldClientConfigGroupConfig.setPassword("dev-pass");
         ClientNetworkConfig oldClientNetworkConfig = new ClientNetworkConfig();
-        oldClientNetworkConfig.setAddresses(Arrays.asList(hazelCastURL)); //ec2-54-154-203-95.eu-west-1.compute.amazonaws.com 172.31.11.15
+        oldClientNetworkConfig.setAddresses(Arrays.asList(hazelCastURL)); 
         oldClientConfig.setNetworkConfig(oldClientNetworkConfig);
         SerializationConfig serializationConfig = new SerializationConfig();
 
